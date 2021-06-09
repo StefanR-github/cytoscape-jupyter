@@ -1,0 +1,59 @@
+[ {
+  "name" : "Default filter",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "IS",
+        "criterion" : [ 0.0, 0.994 ],
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "ipi"
+      }
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "DOES_NOT_CONTAIN",
+        "criterion" : "",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "Human Readable Label"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Default filter 1",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "BETWEEN",
+        "criterion" : [ 0.0, 0.994 ],
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "JurkatScore"
+      }
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "DOES_NOT_CONTAIN",
+        "criterion" : "",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "Human Readable Label"
+      }
+    } ]
+  } ]
+} ]

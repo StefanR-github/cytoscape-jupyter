@@ -1,0 +1,574 @@
+[ {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.8.2",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "PSIMI 25 Style",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "border-width" : 2.0,
+      "width" : 65.0,
+      "height" : 65.0,
+      "color" : "rgb(50,50,50)",
+      "border-opacity" : 0.9411764705882353,
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "background-opacity" : 0.8627450980392157,
+      "border-color" : "rgb(180,180,180)",
+      "font-size" : 12,
+      "background-color" : "rgb(255,102,102)",
+      "text-opacity" : 0.9019607843137255,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "shape" : "octagon",
+      "content" : "data(Human_Readable_Label)"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'small molecule']",
+    "css" : {
+      "border-color" : "rgb(64,64,64)"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'gene']",
+    "css" : {
+      "border-color" : "rgb(64,64,64)"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein']",
+    "css" : {
+      "background-color" : "rgb(51,51,255)"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein dna complex']",
+    "css" : {
+      "width" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'ribonucleic acid']",
+    "css" : {
+      "width" : 10.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'small molecule']",
+    "css" : {
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'complex composition']",
+    "css" : {
+      "width" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'single stranded deoxyribonucleic acid']",
+    "css" : {
+      "width" : 10.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'double stranded deoxyribonucleic acid']",
+    "css" : {
+      "width" : 10.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'gene']",
+    "css" : {
+      "width" : 30.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'nucleic acid']",
+    "css" : {
+      "width" : 10.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein complex']",
+    "css" : {
+      "width" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'deoxyribonucleic acid']",
+    "css" : {
+      "width" : 10.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'ribonucleoprotein complex']",
+    "css" : {
+      "width" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'complex']",
+    "css" : {
+      "width" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein']",
+    "css" : {
+      "width" : 65.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein dna complex']",
+    "css" : {
+      "height" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'ribonucleic acid']",
+    "css" : {
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'small molecule']",
+    "css" : {
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'complex composition']",
+    "css" : {
+      "height" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'single stranded deoxyribonucleic acid']",
+    "css" : {
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'double stranded deoxyribonucleic acid']",
+    "css" : {
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'gene']",
+    "css" : {
+      "height" : 30.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'nucleic acid']",
+    "css" : {
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein complex']",
+    "css" : {
+      "height" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'deoxyribonucleic acid']",
+    "css" : {
+      "height" : 60.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'ribonucleoprotein complex']",
+    "css" : {
+      "height" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'complex']",
+    "css" : {
+      "height" : 150.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein']",
+    "css" : {
+      "height" : 24.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein dna complex']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'ribonucleic acid']",
+    "css" : {
+      "shape" : "parallelogram"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'small molecule']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'complex composition']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'single stranded deoxyribonucleic acid']",
+    "css" : {
+      "shape" : "parallelogram"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'double stranded deoxyribonucleic acid']",
+    "css" : {
+      "shape" : "parallelogram"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'gene']",
+    "css" : {
+      "shape" : "diamond"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'nucleic acid']",
+    "css" : {
+      "shape" : "parallelogram"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein complex']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'deoxyribonucleic acid']",
+    "css" : {
+      "shape" : "parallelogram"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'ribonucleoprotein complex']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'complex']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'protein']",
+    "css" : {
+      "shape" : "roundrectangle"
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'small molecule']",
+    "css" : {
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[Interactor_Type = 'gene']",
+    "css" : {
+      "border-width" : 4.0
+    }
+  }, {
+    "selector" : "node[ id = '2144' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2147' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2148' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2150' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2151' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2155' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2157' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2159' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2129' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2161' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2131' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2132' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2137' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2139' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2140' ]",
+    "css" : { }
+  }, {
+    "selector" : "node[ id = '2141' ]",
+    "css" : { }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "opacity" : 0.7058823529411765,
+      "target-arrow-color" : "rgb(0,0,0)",
+      "line-style" : "solid",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "text-opacity" : 0.3137254901960784,
+      "color" : "rgb(50,50,50)",
+      "source-arrow-shape" : "none",
+      "target-arrow-shape" : "none",
+      "content" : "",
+      "width" : 2.0,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "font-size" : 8,
+      "line-color" : "rgb(64,64,64)"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'neutral genetic interaction']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'negative genetic interaction']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'maximal epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'qualitative epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'positive genetic interaction']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'opposing epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'suppression (complete)']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'enhancement']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'asynthetic']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'unilateral suppression']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'unilateral suppression (partial)']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'quantitative epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'unilateral enhancement']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'unilateral over-suppression']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'suppression']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'over-suppression-enhancement']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'phenotype bias']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'over-suppression']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'genetic interaction']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'neutral epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'suppression-enhancement']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'noninteractive']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'colocalization']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'predicted interaction']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'unilateral suppression (complete)']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'mutual enhancement']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'suppression (partial)']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'synthetic']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'positive epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'minimal epistasis']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'mutual suppression (complete)']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'mutual suppression']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'mutual over-suppression']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'mutual suppression (partial)']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'colocalization']",
+    "css" : {
+      "width" : 3.0
+    }
+  }, {
+    "selector" : "edge[Primary_Interaction_Type = 'predicted interaction']",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge[ id = '2752' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2884' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2565' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2599' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2761' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2762' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2604' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2830' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2706' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2738' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2707' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2708' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2997' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '3062' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2935' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2681' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2557' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2717' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2558' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2718' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '3038' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge[ id = '2751' ]",
+    "css" : { }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+} ]
